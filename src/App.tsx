@@ -1,7 +1,6 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
+import Routes from './routes'
 
-function App() {
-  return <h1>Hello World!</h1>
-}
+const App: FunctionComponent = () => <Routes />
 
 export default App
