@@ -1,5 +1,7 @@
 import React, { FunctionComponent } from 'react'
 
-const Dashboard: FunctionComponent = () => <h1>Dashboard</h1>
+import { Title } from './styles'
+
+const Dashboard: FunctionComponent = () => <Title>Dashboard</Title>
 
 export default Dashboard
