@@ -46,7 +46,7 @@ const Dashboard: FunctionComponent = () => {
       <img src={logo} alt="Github Exloprer" />
       <Title>Explore repositórios no Github</Title>
 
-      <Form onSubmit={handleSearchRepository}>
+      <Form hasError={!!inputError} onSubmit={handleSearchRepository}>
         <input
           placeholder="Digite o nome do repositório"
           value={searchRepository}
